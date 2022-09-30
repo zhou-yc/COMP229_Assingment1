@@ -1,0 +1,139 @@
+/*
+  File Name: style.css
+  Student's Name: Yuchen Zhou
+  Student ID: 301188341
+  Date: 2022/9/30
+*/
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration:none;
+  color: #000;
+}
+
+.container {
+  width: 70rem;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  height: 80px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+
+.nav>a {
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 4rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 2rem;
+}
+
+img {
+  height: 12rem;
+  margin-right: 20px;
+}
+
+.about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.desc {
+  font-size: 2rem;
+  max-width: 40rem;
+  margin-top: 10px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.grid{
+  display: grid;
+  height: 16rem;
+  width: 40rem;
+  grid-template-columns: 1fr 1fr;
+  font-size: 2rem;
+}
+.grid>a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+}
+
+.cv {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  color: blue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+form>button {
+  height: 3rem;
+  width: 20rem;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+label {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+input {
+  height: 2rem;
+  width: 20rem;
+  margin-top: 4px;
+}
+
+textarea {
+  height: 4rem;
+  width: 20rem;
+  margin-top: 4px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}

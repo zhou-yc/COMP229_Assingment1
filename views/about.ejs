@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About Me</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <div class="container">
+    <%-include("common/header.ejs") %>
+      <div class="title">
+        About me
+      </div>
+      <div class="about">
+        <img class="photo" src="/images/photo.jpg" alt="photo">
+        <div class="info">
+          <div>
+            Name: Yuchen Zhou
+          </div>
+          <div>
+            Age: 20
+          </div>
+          <div>
+            Gender Identity: Female
+          </div>
+          <div>
+            nationality: China
+          </div>
+          <div>
+            Language: Mandarin / English
+          </div>
+        </div>
+      </div>
+      <div class="desc">
+        I am a full stack developer with three years of work experience. I have independently completed dozens of
+        projects, and am skilled in using various frameworks to develop APP, mobile websites and PC websites.
+      </div>
+      <a class="cv" href="/files/CV_YuchenZhou.pdf">Click here to view the PDF vesion of my Resume</a>
+      <%-include("common/footer.ejs") %>
+  </div>
+</body>
+
+</html>

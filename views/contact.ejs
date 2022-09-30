@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Me</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <div class="container">
+    <%-include("common/header.ejs") %>
+      <div class="title">
+        Contact me
+      </div>
+      <div class="info">
+        <div>
+          Name: Yuchen Zhou
+        </div>
+        <div>
+          Tel: <a href="tel:+16472698326">(647)-269-8326</a>
+        </div>
+        <div>
+          E-mail: <a href="mailto:zhouyuchen916@gmail.com">zhouyuchen916@gmail.com</a>
+        </div>
+        <div>
+          Addr: 104 Haven Hill Square, Toronto, ON M1V 1M5, Canada
+        </div>
+        <div>
+          You can also leave a message for me by filling in the form:
+        </div>
+      </div>
+      <form action="">
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
+        <label for="phone">Phone</label>
+        <input type="text" name="phone">
+        <label for="email">E-mail</label>
+        <input type="email" name="email">
+        <label for="content">Content</label>
+        <textarea name="content"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <%-include("common/footer.ejs") %>
+  </div>
+</body>
+
+</html>
